@@ -12,5 +12,4 @@ public class ResultReponse<TResult> : IResultReponse
     {
         Result = result;
     }
-    
 }

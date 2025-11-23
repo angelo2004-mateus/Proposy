@@ -2,7 +2,7 @@ using NHibernate;
 
 namespace Infrastructure.Data.NHibernate;
 
-public class SessionProvider
+public static class SessionProvider
 {
     private static ISessionFactory _factory;
 
@@ -10,6 +10,8 @@ public class SessionProvider
     {
         _factory = NHibernateConfig.CreateSessionFactory(connectionString);
     }
+
+    public static ISessionFactory SessionFactory => _factory;
 
     public static ISession OpenSession()
     {

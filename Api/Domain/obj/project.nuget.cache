@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "428h/VNbitU=",
+  "dgSpecHash": "9cmm1zBxb7s=",
   "success": true,
   "projectFilePath": "/Users/angelomateusnerysouza/Proposy/Api/Domain/Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/angelomateusnerysouza/.nuget/packages/microsoft.aspnetcore.openapi/9.0.10/microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
-    "/Users/angelomateusnerysouza/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.0/microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
-    "/Users/angelomateusnerysouza/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
-    "/Users/angelomateusnerysouza/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

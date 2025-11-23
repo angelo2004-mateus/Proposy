@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/angelomateusnerysouza/Proposy/Api/Framework/Framework.csproj": {
-                "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework/Framework.csproj"
+              "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj": {
+                "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj"
               }
             }
           }
@@ -47,12 +47,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -73,14 +67,14 @@
         }
       }
     },
-    "/Users/angelomateusnerysouza/Proposy/Api/Framework/Framework.csproj": {
+    "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/angelomateusnerysouza/Proposy/Api/Framework/Framework.csproj",
-        "projectName": "Framework",
-        "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework/Framework.csproj",
+        "projectUniqueName": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj",
+        "projectName": "Framework.Domain",
+        "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj",
         "packagesPath": "/Users/angelomateusnerysouza/.nuget/packages/",
-        "outputPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework/obj/",
+        "outputPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/angelomateusnerysouza/.nuget/NuGet/NuGet.Config"
@@ -112,12 +106,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[10.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -130,9 +118,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

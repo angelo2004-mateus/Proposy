@@ -1,0 +1,266 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/angelomateusnerysouza/Proposy/Api/Framework.Application/Framework.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/angelomateusnerysouza/Proposy/Api/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angelomateusnerysouza/Proposy/Api/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Domain/Domain.csproj",
+        "packagesPath": "/Users/angelomateusnerysouza/.nuget/packages/",
+        "outputPath": "/Users/angelomateusnerysouza/Proposy/Api/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angelomateusnerysouza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj": {
+                "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angelomateusnerysouza/Proposy/Api/Framework.Application/Framework.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Application/Framework.Application.csproj",
+        "projectName": "Framework.Application",
+        "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Application/Framework.Application.csproj",
+        "packagesPath": "/Users/angelomateusnerysouza/.nuget/packages/",
+        "outputPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angelomateusnerysouza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/angelomateusnerysouza/Proposy/Api/Framework.Infrastructure/Framework.Infrastructure.csproj": {
+                "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Infrastructure/Framework.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj",
+        "projectName": "Framework.Domain",
+        "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/Framework.Domain.csproj",
+        "packagesPath": "/Users/angelomateusnerysouza/.nuget/packages/",
+        "outputPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angelomateusnerysouza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angelomateusnerysouza/Proposy/Api/Framework.Infrastructure/Framework.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Infrastructure/Framework.Infrastructure.csproj",
+        "projectName": "Framework.Infrastructure",
+        "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Infrastructure/Framework.Infrastructure.csproj",
+        "packagesPath": "/Users/angelomateusnerysouza/.nuget/packages/",
+        "outputPath": "/Users/angelomateusnerysouza/Proposy/Api/Framework.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angelomateusnerysouza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/angelomateusnerysouza/Proposy/Api/Domain/Domain.csproj": {
+                "projectPath": "/Users/angelomateusnerysouza/Proposy/Api/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

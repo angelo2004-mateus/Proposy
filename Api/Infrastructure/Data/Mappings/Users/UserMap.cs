@@ -1,9 +1,9 @@
 using Domain.Users;
-using FluentNHibernate.Mapping;
+using Framework.Infrastructure.NHibernate.Mappings;
 
 namespace Infrastructure.Data.Mappings.Users;
 
-public class UserMap : ClassMap<User>
+public class UserMap : AuditedEntityClassMap<User>
 {
     public UserMap()
     {
