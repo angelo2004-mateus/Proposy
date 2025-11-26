@@ -5,5 +5,5 @@ namespace Application.Contracts;
 
 public interface IUserAppService : IAppService<User, Guid>
 {
-    
+    Task<User> GetByIdAsync(Guid id);
 }
