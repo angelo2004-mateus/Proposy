@@ -9,4 +9,9 @@ public class UserAppService : AppService<User, Guid, IUserRepository>, IUserAppS
     public UserAppService(IUserRepository repository) : base(repository)
     {
     }
+
+    public Task<User> GetByIdAsync(Guid id)
+    {
+        return mapper.To<UserDto>(_repository.GetByIdAsync(id));
+    }
 }
